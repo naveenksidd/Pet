@@ -5,7 +5,8 @@
 
 <petclinic:layout pageName="home">
     <h2><fmt:message key="welcome"/></h2>
-    <h8><fmt:message key="Welcome on board"/></h8>
+    <h3><fmt:message key="Welcome on board"/></h3>
+    <h4><fmt:message key="Testing commit"/></h4>
     <div class="row">
         <div class="col-md-12">
             <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
