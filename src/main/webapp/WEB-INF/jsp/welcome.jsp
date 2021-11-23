@@ -7,6 +7,7 @@
     <h2><fmt:message key="welcome"/></h2>
     <h3><fmt:message key="Welcome on board"/></h3>
     <h4><fmt:message key="Testing commit"/></h4>
+    <h5><fmt:message key="more chnages"/></h5>
     <div class="row">
         <div class="col-md-12">
             <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
