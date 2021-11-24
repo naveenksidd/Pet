@@ -1,9 +1,6 @@
 pipeline
 {
-agent
-  {
-    label 'Ubuntu'
-  }
+agent any
   environment
   {
     mvnHome=tool 'maven'
