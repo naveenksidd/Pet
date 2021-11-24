@@ -56,7 +56,7 @@ stage('Test')
       echo "artifact pushing to repository"
     }
   }
-  statge('Deploying on SIT')
+  stage('Deploying on SIT')
   {
     steps
     {
