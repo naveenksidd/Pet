@@ -1,7 +1,13 @@
 pipeline
 {
-  def mvnHome = tool 'maven'
 agent any
+  {
+    label 'Ubuntu'
+  }
+  environment
+  {
+    mvnHome=tool 'maven'
+  }
 stages
 {
 stage('Code Checkout')
