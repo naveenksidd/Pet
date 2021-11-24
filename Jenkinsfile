@@ -12,7 +12,7 @@ stage('Code Checkout')
 steps
 {
 echo "Code pulling...."
-checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'github', url: 'https://github.com/naveenksidd/Pet']]])
+checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '66c45d1b-d46a-48bc-96d8-978515d8dbf2', url: 'https://github.com/naveenksidd/Pet']]])
 }
 }
 stage('Compile')
